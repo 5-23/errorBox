@@ -1,0 +1,25 @@
+.errorBox{
+    position: relative;
+    background-color : red;
+    border-radius: 10px;
+    display : none;
+    width: 100%;
+    font-size: 200%;
+}
+
+@keyframes boxDown{
+    from{
+        margin-top: -30%;
+    }
+    to{
+        margin-top: 0%;
+    }
+}
+@keyframes boxUp{
+    from{
+        margin-top: 0%;
+    }
+    to{
+        margin-top: -30%;
+    }
+}
